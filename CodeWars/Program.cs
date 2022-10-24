@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System;
+
+public static class Kata
+{
+    public static int MakeNegative(int number)
+    {
+        return number > 0 ? -number : number;
+    }
+}
